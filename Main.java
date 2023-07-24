@@ -6,6 +6,8 @@ public class Main {
         CoffeeOrder order1 = new CoffeeOrder("John", "Cappuccino", "Medium");
         CoffeeOrder order2 = new CoffeeOrder("Emma", "Espresso", "Small");
         CoffeeOrder order3 = new CoffeeOrder("Michael", "Latte", "Large");
+	CoffeeOrder order4 = new CoffeeOrder("Oliver", "Cold Coffee", "Medium");
+	CoffeeOrder order5 = new CoffeeOrder("Jasmine", "French Vanilla", "Medium");
 
         coffeeQueue.addOrder(order1);
         coffeeQueue.addOrder(order2);
